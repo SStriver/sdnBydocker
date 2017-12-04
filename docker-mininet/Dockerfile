@@ -5,6 +5,7 @@ MAINTAINER Yunjian Peng <sstriver@qq.com>
 USER root
 WORKDIR /root
 
+
 COPY entrypoint.sh /
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
